@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f0f8ff;
+  margin: 10px;
+}
+
+header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: #ffeb3b;
+  text-decoration: none; /* Прибираємо підкреслення */
+  font-weight: bold;
+  padding: 0.6rem 1.2rem; /* Додаємо внутрішні відступи для вигляду кнопки */
+  background-color: #4caf50;
+  border-radius: 5px; /* Округлені кути */
+  transition: all 0.3s ease; /* Плавний перехід для ефекту наведення */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь кнопки */
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #45a049;
+  transform: scale(1.1); /* Збільшення кнопки */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Більша тінь */
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fdf5e6;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home h2 {
+  color: #ff5722;
+  margin-bottom: 1rem;
+}
+
+#tours h2 {
+  color: #3f51b5;
+  margin-bottom: 1.2rem;
+}
+
+#gallery h2 {
+  color: #009688;
+  margin-bottom: 1.4rem;
+}
+
+#contact h2 {
+  color: #9c27b0;
+  margin-bottom: 1.6rem;
+}
+
+.tour {
+  margin: 1.5rem 2rem;
+  padding: 1.2rem;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour h3 {
+  color: #00796b;
+  margin-bottom: 0.8rem;
+}
+
+.gallery-image {
+  width: 150px;
+  height: 100px;
+  background-color: #ff9800;
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3e5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 1.5rem auto;
+}
+
+form label {
+  color: #9c27b0;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #9c27b0;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.7rem;
+  margin-top: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3f51b5;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 20px;
+}
+img {
+  width: 800;
+  height: 400;
+}
+.hotel-info {
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.hotel-info h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0 5px;
+}
+
+.hotel-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.price {
+  font-size: 22px;
+  color: #d9534f;
+  margin: 10px 0;
+}
+
+.price span {
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
